@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: minio-accessor
-    image: timv2/minio-fuse
+    image: timv2/minio-fuse:0.0.3
     securityContext:
       privileged: true
     envFrom:

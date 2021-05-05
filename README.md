@@ -4,9 +4,9 @@ Providing minio URL, bucket name and credentials, it will mount this minio bucke
 
 ## build
 
-sudo docker build -t minio-fuse .
-sudo docker tag minio-fuse timv2/minio-fuse
-sudo docker push timv2/minio-fuse
+    sudo docker build -t minio-fuse .
+    sudo docker tag minio-fuse timv2/minio-fuse:0.0.3
+    sudo docker push timv2/minio-fuse:0.0.3
 
 ## examples
 

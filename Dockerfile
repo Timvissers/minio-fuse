@@ -19,4 +19,4 @@ RUN apk --update --no-cache add fuse alpine-sdk automake autoconf libxml2-dev fu
 RUN mkdir -p "$MNT_POINT"
 
 COPY run.sh run.sh
-CMD ./run.sh
+CMD /run.sh
